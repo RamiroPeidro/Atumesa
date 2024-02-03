@@ -36,7 +36,7 @@ export default function Example() {
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
-                className="absolute left-0 top-3 w-[35rem] max-w-none"
+                className="absolute left-4 top-0 w-[18rem] max-w-none sm:w-[30rem] lg:w-[35rem]"
                 src={Ilustration}
                 alt="App screenshot"
                 width={1824}
