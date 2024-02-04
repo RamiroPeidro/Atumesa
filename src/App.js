@@ -6,6 +6,7 @@ import Tarifas from './components/common/Tarifas/Tarifas';
 import Hero2 from './components/common/Hero2/Hero2'
 import Empresas from './components/common/Empresas/Empresas';
 import Stats from './components/common/Stats/Stats';
+import Footer from './components/common/Footer/Footer';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       {/* <Empresas></Empresas> */}
       <Stats></Stats>
       <Tarifas></Tarifas>
+      <Footer></Footer>
     </div>
   )
 }
