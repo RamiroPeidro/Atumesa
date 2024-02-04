@@ -1,4 +1,4 @@
-import Ilustration from "/Users/ramiropeidro/Desktop/Programacion/pedila/pedila/src/assets/Pasta-amico.svg"
+import Ilustration from "../../../assets/Pasta-amico.svg"
 
 export default function Example() {
     return (

@@ -1,6 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, PhoneIcon, CreditCardIcon, ClockIcon} from '@heroicons/react/20/solid'
-import EscenaRest from '/Users/ramiropeidro/Desktop/Programacion/pedila/pedila/src/assets/Coffee shop-amico.svg';
-// import EscenaRest from '/Users/ramiropeidro/Desktop/Programacion/pedila/pedila/src/assets/escena_rest.png';
+import EscenaRest from '../../../assets/Coffee shop-amico.svg';
 
 
 const features = [

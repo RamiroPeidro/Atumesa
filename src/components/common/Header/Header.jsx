@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '/Users/ramiropeidro/Desktop/Programacion/pedila/pedila/src/assets/klipartz.com.png'
-import Principal from '/Users/ramiropeidro/Desktop/Programacion/pedila/pedila/src/assets/Order food-bro.svg'
+import Logo from '../../../assets/klipartz.com.png'
+import Principal from '../../../assets/Order food-bro.svg'
 
 const navigation = [
   { name: '¿Qué hacemos?', href: '#' },
