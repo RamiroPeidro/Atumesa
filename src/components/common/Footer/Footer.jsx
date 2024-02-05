@@ -6,22 +6,6 @@ const Footer = () => {
       <div>
         <h1 className='text-3xl font-bold text-[#1A202C]'>A TU MESA.</h1>
       </div>
-      <div className='flex flex-col justify-between'>
-        <h6 className='font-medium text-gray-400'>¿Qué hacemos?</h6>
-        {/* Contenido adicional para esta sección */}
-      </div>
-      <div className='flex flex-col justify-between'>
-        <h6 className='font-medium text-gray-400'>Beneficios</h6>
-        {/* Contenido adicional para esta sección */}
-      </div>
-      <div className='flex flex-col justify-between'>
-        <h6 className='font-medium text-gray-400'>Tarifas</h6>
-        {/* Contenido adicional para esta sección */}
-      </div>
-      <div className='flex flex-col justify-between'>
-        <h6 className='font-medium text-gray-400'>Conocenos</h6>
-        {/* Contenido adicional para esta sección */}
-      </div>
     </div>
   );
 };

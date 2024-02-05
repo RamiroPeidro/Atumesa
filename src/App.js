@@ -7,10 +7,12 @@ import Hero2 from './components/common/Hero2/Hero2'
 import Empresas from './components/common/Empresas/Empresas';
 import Stats from './components/common/Stats/Stats';
 import Footer from './components/common/Footer/Footer';
+import NavBar from './components/common/Navbar/Navbar';
 
 export default function App() {
   return (
     <div>
+      <NavBar></NavBar>
       <Header></Header>
       <Hero></Hero>
       <Hero2></Hero2>
