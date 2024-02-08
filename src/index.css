@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 html {
     scroll-behavior: smooth;
   }
   
+=======
+html{
+    scroll-behavior: smooth;
+}
+>>>>>>> d8b02054f835041a40195e2feed7dcccff6c2d6a

@@ -9,12 +9,12 @@ import Empresas from './components/common/Empresas/Empresas';
 import Stats from './components/common/Stats/Stats';
 import Footer from './components/common/Footer/Footer';
 import { Datas } from './components/common/Datas/Datas';
-
 import { FAQ } from './components/common/FAQ/FAQ';
 
 export default function App() {
   return (
     <div>
+      <NavBar></NavBar>
       <Header></Header>
       <Hero></Hero>
       <Hero2></Hero2>
