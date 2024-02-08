@@ -5,11 +5,7 @@ import Logo from '../../../assets/klipartz.com.png'
 import Principal from '../../../assets/Order food-bro.svg'
 
 const navigation = [
-<<<<<<< HEAD
-  { name: '¿Qué hacemos?', href: '#que-hacemos'},
-=======
   { name: '¿Qué hacemos?', href: '#que-hacemos' },
->>>>>>> d8b02054f835041a40195e2feed7dcccff6c2d6a
   { name: 'Beneficios', href: '#beneficios' },
   { name: 'Tarifas', href: '#tarifas' },
 ]

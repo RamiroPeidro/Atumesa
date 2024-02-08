@@ -10,6 +10,7 @@ import Stats from './components/common/Stats/Stats';
 import Footer from './components/common/Footer/Footer';
 import { Datas } from './components/common/Datas/Datas';
 import { FAQ } from './components/common/FAQ/FAQ';
+import NavBar from './components/common/Navbar/Navbar';
 
 export default function App() {
   return (
