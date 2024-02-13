@@ -11,6 +11,7 @@ import Footer from './components/common/Footer/Footer';
 import { Datas } from './components/common/Datas/Datas';
 import FAQ from './components/common/FAQ/FAQ';
 import NavBar from './components/common/Navbar/Navbar';
+import Form from './components/common/Form/Form';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       {/* <Empresas></Empresas> */}
       <Datas></Datas>
       <FAQ></FAQ>
+      <Form></Form>
       <Footer></Footer>
     </div>
   )

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../../../assets/klipartz.com.png'
@@ -14,6 +14,9 @@ export default function NavBar() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+
   const handleMenuToggle = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -22,8 +25,18 @@ export default function NavBar() {
     setMobileMenuOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-<header className="sticky top-0 inset-x-0 z-50">
+<header className={`sticky top-0 inset-x-0 z-50 ${hasScrolled ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
   <div className="flex lg:flex-1">
     <a href="#" className="-m-1.5 p-1.5">
@@ -98,4 +111,4 @@ export default function NavBar() {
 </Dialog>
 </header>
   );
-          }
+}
