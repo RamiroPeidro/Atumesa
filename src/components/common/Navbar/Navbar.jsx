@@ -8,6 +8,8 @@ const navigation = [
   { name: '¿Qué hacemos?', href: '#que-hacemos' },
   { name: 'Beneficios', href: '#beneficios' },
   { name: 'Tarifas', href: '#tarifas' },
+  { name: 'FAQ', href: '#FAQ' },
+  { name: 'Contacto', href: '#contacto' }
 ]
 
 export default function NavBar() {

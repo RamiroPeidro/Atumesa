@@ -5,7 +5,7 @@ function Form() {
     return (
         <>
      <section className="min-h-screen">
-    <div className="container flex flex-col min-h-screen px-6 mx-auto">
+    <div id="contacto" className="container flex flex-col min-h-screen px-6 mx-auto">
         <div className="flex-1 lg:flex lg:items-center items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
                 <h1 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Contactate con <span className="inline-block text-indigo-600 ">
